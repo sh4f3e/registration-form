@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: "Poppins";
+    line-height: 1.4;
+    background-image: url("https://img.freepik.com/free-vector/flat-back-school-background-with-crayons_23-2149488198.jpg?w=996&t=st=1671733578~exp=1671734178~hmac=db55bca301a069e4936c2f3325837330a71206bfdad3f05df060f0c19e8432a7");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    justify-content: center;
+    margin: auto;
+}
+p{
+    font-size: 17px;
+    font-style: italic;
+    
+}
+form{
+    background-color: rgb(255,255,255,0.8);
+    padding: 1.5rem 1.5rem ;
+    border-radius: 1.5rem;
+    width: 500px;
+    margin: auto;
+}
+
+.submit{
+    width: 500px;
+    padding: 0.6rem;
+    background-color: blueviolet;
+    border-color: #ced4da;
+    color:white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.input-headings{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+.form-input{
+    display: block;
+    width: 90%;
+    height: 2rem;
+    padding: 0.25rem 0.75rem;
+    background-color:white;
+    border:2px solid #ced4da;
+    border-radius: 0.30rem;
+}
+#dropdown {
+    display: block; 
+    width: 95.5%;
+    height: 2rem;
+    padding: 0.25rem 0.75rem;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }

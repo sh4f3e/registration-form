@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    
+    <h1 id="title">ABC Registration Form</h1>
+    <p id="description">course registration form</p>
+    <form id="survey-form">
+        <div class="input-headings">
+        
+        <label for="name" id="name-label"><b>Name</b></label>
+        <input id="name" type="text" placeholder="Enter your name" class="form-input" required></input>
+        <br>
+        <label for="email" id="name-email"><b>Email</b></label>
+        <input id="email" type="email" placeholder="Enter your email" class="form-input" required ></input>
+        <br>
+        <label for="number" id="number-label"><b>Phone Number</b></label>
+        <input id="number" type="number" placeholder="Enter your Phone Number" class="form-input" required></input>
+        <br>
+        <label for="number" id="number-label"><b>Age</b></label>
+        <input id="number" type="number" placeholder="Enter your age" min="13" max="30" class="form-input" required></input>
+        <br>
+        <label for="name" id="name-label"><b>College Name</b></label>
+        <input id="name" type="text" placeholder="Enter your College name" class="form-input" required></input>
+        <br>
+        <label for="degree-select"><b>Degree:</b></label>
+        <br>
+        <input type="radio" id="degree-select" name="degree" value="btech">
+         <label for="degree-select">B.Tech</label>
+        <br>
+        <input type="radio" id="degree-select" name="degree" value="Mtech">
+         <label for="degree-select">M.Tech</label>
+         <br>
+         <input type="radio" id="degree-select" name="degree" value="mca/mba">
+         <label for="degree-select">MCA/MBA</label>
+         <br>
+         <br>
+         <label for="dropdown"><b>Branch</b></label>
+         <select id="dropdown">
+            <option>Select from</option>
+            <option>Civil</option>
+            <option>Mechanical</option>
+            <option>Computer Science</option>
+            <option>Information Technology</option>
+            <option>Electrical & Electronic</option>
+            <option>Electrical & Communication</option>
+            <option>Chemical</option>
+            <option>Others</option>
+         </select>
+       <br>
+        <label for="number" id="number-label"><b>Year of Passing</b></label>
+        <input id="number" type="number" placeholder="Eg: 2023" min="2018" max="2030" class="form-input"></input>
+        <br>
+        <br>
+        <label for="course-select"><b>Select the course you want to enroll?</b></label>
+        <br>
+        <input type="checkbox" value="check-box" id="course-select">
+        <label for="course-select">C/C++ Programming.</label>
+        <br>
+        <input type="checkbox" value="check-box" id="course-select">
+        <label for="course-select">JAVA Programming.</label>
+        <br>
+        <input type="checkbox" value="check-box" id="course-select">
+        <label for="course-select">Python Programming.</label>
+        <br>
+        <input type="checkbox" value="check-box" id="course-select">
+        <label for="course-select">Artificial Intelligence.</label>
+        <br>
+        <input type="checkbox" value="check-box" id="course-select">
+        <label for="course-select">Machine Learning.</label>
+        <br>
+        <input type="checkbox" value="check-box" id="course-select">
+        <label for="course-select">Frontend Developement.</label>
+        <br>
+        <input type="checkbox" value="check-box" id="course-select">
+        <label for="course-select">Backend Development.</label>
+        <br>
+        <input type="checkbox" value="check-box" id="course-select">
+        <label for="course-select">Full stack Development.</label>
+        <br>
+        <input type="checkbox" value="check-box" id="course-select">
+        <label for="course-select">Software Testing.</label>
+        <br>
+        <input type="checkbox" value="check-box" id="course-select">
+        <label for="course-select">APP Development.</label>
+        <br>
+        <br>
+        <label for="textarea">Comments Regarding fees:</label>
+        <br>
+        <textarea id="textarea" rows="5" cols="40"></textarea>
+        <br>
+        <br>
+        <input type="submit" id="submit" value="submit" class="submit">
+        </select>
+        </div>
+    </form>
+</body>
+</html>
